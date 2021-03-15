@@ -196,7 +196,16 @@ a{
 .col-5 span {
     color: #000000;
 }
-
+.linkTugas {
+    background-color: #F84744;
+    color: white;
+    padding: 1em 1.5em;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.linkTugas:hover{
+    background-color: red;
+}
 footer {
 	background-color: #333;
 	padding:50px;
