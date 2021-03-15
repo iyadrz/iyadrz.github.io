@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latihan 1 JS</title>
+    <link rel="stylesheet" href="style_tugasJS.css" />
+    <script type="text/javascript" src="script_tugasJS.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Program Latihan JS</h1>
+      <form>
+        <p>
+          <label for="nilai1" class="text">Nilai 1:</label>
+          <input type="number" name="nilai[]" value="" /><br />
+        </p>
+        <p>
+          <label for="nilai2" class="text">Nilai 2:</label>
+          <input type="number" name="nilai[]" value="" /><br />
+        </p>
+        <p>
+          <label for="nilai3" class="text">Nilai 3:</label>
+          <input type="number" name="nilai[]" value="" />
+        </p>
+        <button type="button" name="button" onclick="hitung()">Hitung</button>
+        <button type="reset" name="hapus" onclick="blah()">Hapus</button>
+      </form>
+        <p>Nilai Rata-rata:</p>
+        <p id="rerata"></p>
+        <p>Nilai Tertinggi:</p>
+        <p id="max"></p>
+        <p>Nilai Terendah:</p>
+        <p id="min"></p>
+        <p>Nilai Tengah:</p>
+        <p id="tengah"></p>
+    </div>
+  </body>
+</html>
