@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas OOP</title>
+    <link rel="stylesheet" href="mhs.css" />
+</head>
+<body>    
+    <p><a class="btnHome" href="../index.html#tugas">Kembali ke Homepage</a></p>
+    <h1>Registrasi Mahasiswa</h1>
+    <form id='frmUtama'>
+        <ul>
+            <li>
+                <label for="nama">Nama :</label>
+                <input id="nama" name="nama" type="text" maxlength="50" required/>
+            </li>
+            <li>
+                <label for="nim">NIM :</label>
+                <input id="nim" name="nim" type="text" maxlength="20" required/>
+            </li>     
+            <li>
+                <label for="prodi">Prodi :</label>
+                <input id="prodi" name="prodi" type="text" maxlength="50" required/>
+            </li>     
+            <li>
+                <label for="ipk">Email: </label>
+                <input id="email" name="email" type="text" maxlength="30" required />
+            </li>
+            <li>
+                <input id='btnDaftar' type="submit" value="Daftar" />
+                <input id='btnReset' type="reset" value="Reset" />
+            </li>
+        </ul>
+    </form>
+    <div id='pesan'>    
+    </div>
+    <h1>List Mahasiswa Terdaftar</h1>
+    <table class="tabel">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Prodi</th>
+                <th>Email</th>
+                <th></th>
+            </tr>         
+        </thead>
+        <tbody id="tabel">
+        </tbody>
+    </table> 
+</body>
+<script src="mhs.js"></script>
+</html>

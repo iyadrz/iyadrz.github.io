@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+          
+body{
+    text-align: center;
+    background: #c31432;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient(to right, #240b36, #c31432);
+    font-family: poppins;
+}
+.tabel {
+    border-collapse: collapse;
+    margin: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tabel thead tr {
+    background-color: rgb(94, 87, 87);
+    color: #ffffff;
+    text-align: left;
+}
+
+.tabel th,
+.tabel td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.tabel tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+.tabel tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+
+.tabel tbody tr:nth-of-type(even) {
+    background-color: #c4c4c4;
+}
+
+.tabel tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(206, 79, 79);
+}
+form {
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 40px;
+    display: inline-block;
+    border-radius: 25px;
+}
+ul {
+    list-style-type: none; margin: 0px; padding: 0px;
+}
+li {
+    padding: 12px; 
+}
+#btnDaftar, #btnReset{
+    margin-left: 45px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.178);
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+label {
+    width: 150px; 
+    float: left; 
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+}
+#pesan {
+    border: 1px dashed #eee; 
+    padding: 10px;
+    color: #dadada; 
+    font-family: monospace;
+}
+
+h1{
+    color: rgb(202, 200, 200);
+}
+#nama, #nim, #prodi, #email{
+    background: transparent;
+    box-shadow: none;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 0%;
+    font-size: medium;
+    border-bottom: 1px solid rgb(145, 135, 135);
+}
+input{
+    background: #8f8989;
+    box-shadow: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+}
+.btnHome{
+    left: 10px; 
+    width: 135px;
+    top: 10px;
+    height: 47px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.178);
+    border: none;
+    color: white;
+}
+.btnHome:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+}
