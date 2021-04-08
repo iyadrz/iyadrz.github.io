@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    text-align: center;
+    background: #c31432;
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient(to right, #240b36, #c31432);
+    font-family: poppins;
+}
+.box {
+    padding: 30px 40px;
+    border-radius: 15px;
+    background-color: rgba(75, 100, 114, 0.24);
+}
+.box:hover {
+    transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    background-color: rgba(47, 56, 63, 0.315);
+}
+.jumbotron{
+    background: none;
+    background-color: #29292975;
+    padding: 30px;
+    border-bottom: 5px solid #ff000048;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+p{
+    line-height: 35px;
+    font-size: 21.7px;
+    color: rgb(206, 206, 206);
+}
+p:hover{
+    color: #ffffffee;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: #240b366e;
+}
+h3{
+    color: #ec5f1d;
+}
+h1, h2{
+    color: rgb(206, 206, 206)
+}
+.btnHome{
+    left: 10px; 
+    width: 135px;
+    top: 10px;
+    height: 43x;
+    line-height: normal;
+    position: absolute;
+    text-decoration: none;
+    font-size: 13px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.178);
+    border: none;
+    color: white;
+}
+.btnHome:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+}

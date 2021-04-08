@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="tugasJSON.css">
+    <title>Tugas JSON Pantau COVID-19</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid text-white">
+        <div class="container text-center">
+            <p><a class="btnHome" href="../index.html#tugas">Kembali ke Homepage</a></p>
+            <h1 class="display-4 text-danger"><strong>KAWAL COVID-19</strong></h1>
+            <p class="lead">
+            <h2>PANTAU PENYEBARAN VIRUS COVID-19
+                <br>SECARA REAL-TIME
+                <br>
+            </h2>
+            <h3>Jaga Diri dan Tetap Patuhi Protokol Kesehatan</h3>
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-12 mt-3">
+            <h1>DUNIA</h1>
+        </div>
+        <div class="row">
+            <div class="col pt-2">
+                <div class="box text-white text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 style="color: rgb(0, 153, 255);">Positif</h4>
+                            <h2 id="data-kasus" style="color: rgb(0, 153, 255);"></h2>
+                            <h4 style="color: rgba(0, 153, 255, 0.795)">orang</h4>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 100px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col pt-2">
+                <div class="box text-white text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 style="color: rgb(255, 0, 0);">Meninggal</h5>
+                            <h2 id="data-mati" style="color: rgba(255, 0, 0);"></h2>
+                            <h5 style="color: rgba(255, 0, 0);">orang</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 100px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col pt-2">
+                <div class="box text-white text-center">
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 style="color: rgba(0, 255, 0, 0.795);">Sembuh</h5>
+                            <h2 id="data-sembuh" style="color: rgba(0, 255, 0, 0.795);""></h2>
+                            <h5 style=" color: rgba(0, 255, 0, 0.795);">orang</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 100px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12 mt-3">
+            <h1 class="pt-5">ASIA TENGGARA</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-6 pt-2">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>INDONESIA</h3>
+                            <p id="data-ind"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 pt-2">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>BRUNEI</h3>
+                            <p id="data-brn"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>FILIPINA</h3>
+                            <p id="data-fil"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>MALAYSIA</h3>
+                            <p id="data-mal"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>THAILAND</h3>
+                            <p id="data-thai"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>KAMBOJA</h3>
+                            <p id="data-kam"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>MYANMAR</h3>
+                            <p id="data-myan"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>LAOS</h3>
+                            <p id="data-laos"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>VIETNAM</h3>
+                            <p id="data-viet"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>SINGAPURA</h3>
+                            <p id="data-sing"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4 pt-4">
+                <div class="box text-white">
+                    <div class="row">
+                        <div class="col-12">
+                            <h3>TIMOR LESTE</h3>
+                            <p id="data-timor"></p>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="" style="width: 150px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-white mt-3 bt-2 pb-2">
+        Last Updated <h6 id="lastUpdated"></h6>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery-3.6.0.js"></script>
+</body>
+<script src="tugasJSON.js"></script>
+</html>
